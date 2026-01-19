@@ -1,0 +1,37 @@
+h1{
+    color: aqua;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+}
+p{
+    text-indent: 50px;
+    text-align: center;
+    /*witing-mode: sideways-rl;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: line-through;
+}
+h4{
+    text-decoration: underline;
+}
+
+.myElement{
+   color: blue !important; 
+}
+#normalText{
+    font-style: normal;
+    font-weight: normal;
+}
+#italicText{
+    font-style: italic;
+    font-weight: bold;
+}
+#obliqueText{
+    font-style: oblique;
+    font-weight: 900;
+}
