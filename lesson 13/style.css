@@ -1,0 +1,27 @@
+/*ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid blue;
+}
+ul li{
+    padding: 8px 16px;
+    border: 1px solid blue;
+}*/
+ol{
+    /*list-style-type: upper-roman;*/
+    background: #fa0606;
+    padding: 15px;
+}
+ol li{
+    background: #00ffea;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+ul{
+    border-left: 5px solid greenyellow;
+    background-color: #e70000;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 20px;
+}
