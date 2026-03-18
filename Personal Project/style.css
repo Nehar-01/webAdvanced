@@ -69,36 +69,45 @@ nav ul li.Contact{
 
 #section-2{
     background-color: gray;
-    min-height: 700px;
+    min-height: 400px;
     color: black;
     border-radius: 20px;
 }
 
 .S-class{
-    padding: 3px 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 
-.services{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+#section-3{
+    background-color: gray;
+    min-height: 400px;
+    color: black;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
-.services h3{
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 60px;
+.Mercedes6x6{
+    padding: 1px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
-.services p{
-    font-size: 16px;
-    line-height: 26px;
+#section-4{
+    background-color: gray;
+    min-height: 400px;
+    color: black;
+    border-radius: 20px;
+    margin-top: 20px;
 }
- 
+
+.F1Mercedes{
+    padding: 1px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
 footer{
     background-color: black;
     border-radius: 10px;
