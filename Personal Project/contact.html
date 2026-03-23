@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <section id="section-1">
+        <div class="container">
+            <header>
+                <img src="Logo.png" >
+                <nav>
+                    <ul>
+                        <li class="HOME"><a href="index.html">HOME</a></li>
+                        <li class="About"><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="main-contact">
+                <p>Contact
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="kontakt">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
 </body>
 </html>
