@@ -14,6 +14,7 @@ body{
     height: 40%;
     background-color: black;
     border-radius: 10px;
+    border: 3px solid gray;
 }
 
 header{
@@ -82,6 +83,7 @@ nav ul li.Contact:hover{
     font-weight: bold;
     border-radius: 20px;
     text-align: center;
+    border: 3px solid gray;
 }
 
 .main-about{
@@ -100,6 +102,7 @@ nav ul li.Contact:hover{
     color: black;
     font-size: 40px;
     border-radius: 15px;
+
 }
 
 
@@ -108,6 +111,7 @@ nav ul li.Contact:hover{
     min-height: 400px;
     color: black;
     border-radius: 20px;
+    border: 3px solid black;
 }
 
 .S-class{
@@ -122,6 +126,7 @@ nav ul li.Contact:hover{
     color: black;
     border-radius: 20px;
     margin-top: 20px;
+    border: 3px solid black;
 
 }
 
@@ -137,6 +142,7 @@ nav ul li.Contact:hover{
     color: black;
     border-radius: 20px;
     margin-top: 20px;
+    border: 3px solid black;
 }
 
 .F1Mercedes{
@@ -176,4 +182,22 @@ footer ul{
 
 .kontakt{
     text-align: center;
+}
+
+.aboutimg{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.imgg{
+    width: 1200px;
+    height: 600px;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    border: 10px solid gray;
 }
