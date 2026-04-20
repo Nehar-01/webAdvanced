@@ -1,20 +1,42 @@
- var button1 = document.getElementById('btn1')
- var button2 = document.getElementById('btn2')
- var button3 = document.getElementById('btn3')
- var button4 = document.getElementById('btn4')
+var btn_cirlce = document.getElementById("btnCircle")
+var btn_rect = document.getElementById("btnRect")
+var btn_triangle = document.getElementById("btnTriangle")
 
- button1.onclick = function(){
-    alert('Hello')
- }
+var cirlce = document.getElementById("circle")
+var rect = document.getElementById("rect")
+var triangle = document.getElementById("triangle")
 
-button2.onmouseover = function(){
-    alert('Hello')
- }
 
-button3.onmouseleave = function(){
-    alert('Hello')
- }
+btn_cirlce.onclick = function()
+{
+    circle.setAttribute("class", "shape_circle")
+}
 
-button4.onmousewheel = function(){
-    alert('Hello')
- }
+btn_rect.onclick = function()
+{
+    rect.setAttribute("class", "shape_rect")
+}
+
+btn_triangle.onclick = function()
+{
+    triangle.setAttribute("class", "shape_triangle")
+}
+
+
+
+
+
+cirlce.onclick = function()
+{
+    circle.setAttribute("class", "hide")
+}
+
+rect.onclick = function()
+{
+    rect.setAttribute("class", "hide")
+}
+
+triangle.onclick = function()
+{
+    triangle.setAttribute("class", "hide")
+}
